@@ -7,3 +7,5 @@ echo "Full name = $name"
 
 
 edited contact.sh
+word=`echo $name|wc -L`
+echo "Number of letters $word"
